@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:8080', 'https://solo-sparks-henna.vercel.app/', 'http://127.0.0.1:5173', '*'],
+  origin: ['http://localhost:8080', 'https://solo-sparks-henna.vercel.app/', 'https://solo-sparks-dcziaa9a4-harsh-mehra-rohatgis-projects.vercel.app/','https://solo-sparks-git-main-harsh-mehra-rohatgis-projects.vercel.app/', '*'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
   credentials: true
